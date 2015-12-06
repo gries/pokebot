@@ -30,6 +30,7 @@ $bot->run();
 ```
 
 **Using the bot in slack**
+
 ![demo](examples/demo.gif?raw=true "Title")
 
 Author
