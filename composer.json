@@ -1,0 +1,23 @@
+{
+  "minimum-stability": "dev",
+  "name":         "gries/pokebot",
+  "description":  "Slackbot commands to integrate Pokemath into slack",
+  "license":      "MIT",
+  "keywords":     ["pokemon", "math", "slack"],
+  "type":         "library",
+  "authors":      [
+    {
+      "name":      "Christoph Rosse",
+      "email":     "christoph@rosse.at"
+    }
+  ],
+  "require": {
+    "jclg/php-slack-bot": "dev-master",
+    "gries/pokemath": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "gries\\Pokebot\\": "src"
+    }
+  }
+}
